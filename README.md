@@ -20,9 +20,7 @@ No se requiere `npm install` ni un proceso de compilación. Bootstrap, Bootstrap
 
 ## 🎥 Cómo agregar el video
 
-1. Copia tu archivo de video y guárdalo como `assets/video/video.mp4`.
-2. Opcionalmente, coloca una imagen llamada `poster.jpg` en `assets/img/` para usarla como portada del reproductor.
-3. Recarga la página. Si el video no está disponible, el sitio mostrará un mensaje indicando dónde añadirlo.
+El sitio ya incluye el video explicativo `video/arquitectura desacoplada.mp4`. Si quieres reemplazarlo, conserva ese nombre y ubicación, o actualiza la ruta del elemento `<source>` en `index.html`.
 
 ## 🎨 Cómo personalizar colores y contenido
 
@@ -40,9 +38,9 @@ arquitectura-desacoplada/
 │   └── styles.css
 ├── js/
 │   └── app.js
+├── video/
+│   └── arquitectura desacoplada.mp4
 ├── assets/
-│   ├── video/
-│   │   └── .gitkeep
 │   └── img/
 │       └── fotoperfil.png
 ├── .vscode/
@@ -50,8 +48,6 @@ arquitectura-desacoplada/
 ├── .gitignore
 └── README.md
 ```
-
-Añade `video.mp4` y, si quieres, `poster.jpg` en sus carpetas respectivas; esos archivos multimedia no se incluyen en el repositorio.
 
 ## 🛠️ Tecnologías usadas
 
